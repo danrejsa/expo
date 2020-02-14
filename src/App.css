@@ -803,27 +803,43 @@
         font-weight: bolder; 
        }
     
-       .join-now-btn{
+       .join-now-btn-modal{
         box-shadow: 0 0 0 0 rgb(255, 255, 255);
-        cursor:pointer;
-        -webkit-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
-        -moz-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
-        -ms-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+        cursor:pointer;      
           border : 1px solid #fff;
-          border-radius:6px;
-          margin-top:2rem;
+          border-radius:6px;         
           background:#fff;
           color:#333;
-          width:160px;
-          height:60px;
-          font-size:13px;
-          text-align: center;
-          margin-bottom:3rem;
+          width:100px;         
+          font-size:10px;
+          text-align: center;          
           display:flex;
           align-content: center;
           align-items: center;
-         animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+        
         }
+
+        .join-now-btn{
+          box-shadow: 0 0 0 0 rgb(255, 255, 255);
+          cursor:pointer;
+          -webkit-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+          -moz-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+          -ms-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+            border : 1px solid #fff;
+            border-radius:6px;
+            margin-top:2rem;
+            background:#fff;
+            color:#333;
+            width:160px;
+            height:60px;
+            font-size:13px;
+            text-align: center;
+            margin-bottom:3rem;
+            display:flex;
+            align-content: center;
+            align-items: center;
+           animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+          }
     
         .about-div{
           padding:0rem !important;
